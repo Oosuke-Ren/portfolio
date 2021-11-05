@@ -1,0 +1,51 @@
+a{
+    margin: 1vw;
+    font-size: 0;
+    border-width: 1vw;
+    border: blue;
+}
+#navbar{
+    padding: 0.5vw;
+
+    border-radius: 1vw;
+}
+#navbar:hover{
+    background-color: rgba(165, 42, 42, 0.11);
+}
+#home-screen{
+    position: absolute;
+    left: 40%;
+}
+#home-screen2{
+    top: 12%;
+    position: absolute;
+    left: 32%;
+}
+h1, h2{
+    border-radius: 1vw;
+    padding: 1vw;
+    background-color: #0F3D59;
+    color: #3DADD9;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    border-radius: 1vw;
+    position: absolute;
+    background-color: #1C6C8C;
+    width: 60vw;
+    padding: 1vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    left: 20%;
+    top: 25%;
+}
+#display{
+    display: block;
+    height: 100vh;
+    background-color: #081B26;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+body{
+    margin: 0;
+}
