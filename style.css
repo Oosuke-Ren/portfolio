@@ -1,8 +1,38 @@
+:root{
+    --z: 0px;
+    --gray:#363b44;
+    --very-dark-blue:#081B26;
+    --light-blue:#ACDEF2;
+    --light-blue-2:#3DADD9;
+    --dark-blue:#0F3D59;
+    --teal-blue:#1C6C8C;
+    --teal-blue-semi:#1c6c8c9c;
+    --white: rgba(255, 255, 255, 0.726);
+    --gradient: linear-gradient(65deg, #d367c1 10%,#dedf40 25%,#62cb5c 50%,#00bbcb 75%,#ab79d6 90%);
+  }
+  @keyframes tableLoad {
+    0% {
+      transform: translateY(150%);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+  @keyframes tableLoad2 {
+    0% {
+      transform: translateY(-250%);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+
 a{
+    animation: 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 1 tableLoad;
     margin: 1vw;
     font-size: 0;
     border-width: 1vw;
-    border: blue;
+    border: var(--dark-blue);
 }
 #navbar{
     padding: 0.5vw;
@@ -22,17 +52,19 @@ a{
     left: 32%;
 }
 h1, h2{
+    animation: 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 1 tableLoad2;
     border-radius: 1vw;
     padding: 1vw;
-    background-color: #0F3D59;
+    background-color: var(--dark-blue);
     color: #3DADD9;
     font-style: italic;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar{
+    animation: 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 1 tableLoad;
     border-radius: 1vw;
     position: absolute;
-    background-color: #1C6C8C;
+    background-color: var(--teal-blue);
     width: 60vw;
     padding: 1vw;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
