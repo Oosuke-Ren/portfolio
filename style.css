@@ -12,12 +12,12 @@
   }
   @font-face {
     font-family: Manga-Titles;
-    src: url(../src/1083-font.ttf);
+    src: url("../src/1083-font.ttf");
   }
   
   @font-face {
     font-family: Alt;
-    src: url(../src/brush-type-bg-font.ttf);
+    src: url("../src/brush-type-bg-font.ttf");
   }
 
   @keyframes tableLoad {
