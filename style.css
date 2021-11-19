@@ -10,6 +10,7 @@
     --white: rgba(255, 255, 255, 0.726);
     --gradient: linear-gradient(65deg, #d367c1 10%,#dedf40 25%,#62cb5c 50%,#00bbcb 75%,#ab79d6 90%);
   }
+
   @font-face {
     font-family: Manga-Titles;
     src: url("../src/1083-font.ttf");
@@ -20,6 +21,9 @@
     src: url("../src/brush-type-bg-font.ttf");
   }
 
+  body{
+    font-family: Alt;
+  }
   @keyframes tableLoad {
     0% {
       transform: translateY(150%);
