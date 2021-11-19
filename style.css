@@ -10,6 +10,16 @@
     --white: rgba(255, 255, 255, 0.726);
     --gradient: linear-gradient(65deg, #d367c1 10%,#dedf40 25%,#62cb5c 50%,#00bbcb 75%,#ab79d6 90%);
   }
+  @font-face {
+    font-family: Manga-Titles;
+    src: url(/src/1083-font.ttf);
+  }
+  
+  @font-face {
+    font-family: Alt;
+    src: url(/src/brush-type-bg-font.ttf);
+  }
+
   @keyframes tableLoad {
     0% {
       transform: translateY(150%);
@@ -44,21 +54,22 @@ a{
 }
 #home-screen{
     position: absolute;
-    left: 40%;
+    left: 42%;
 }
 #home-screen2{
-    top: 12%;
+    top: 11%;
     position: absolute;
     left: 32%;
 }
 h1, h2{
     animation: 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 1 tableLoad2;
     border-radius: 1vw;
-    padding: 1vw;
+    padding: 1%;
+    font-size: 2vw;
     background-color: var(--dark-blue);
     color: #3DADD9;
-    font-style: italic;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Alt;
+    text-align: center;
 }
 .navbar{
     animation: 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 1 tableLoad;
@@ -71,6 +82,7 @@ h1, h2{
     left: 20%;
     top: 25%;
 }
+
 #display{
     display: block;
     height: 100vh;
@@ -79,5 +91,6 @@ h1, h2{
 
 }
 body{
+  text-align: center;
     margin: 0;
 }
